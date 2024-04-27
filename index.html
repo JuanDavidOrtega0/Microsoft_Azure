@@ -7,11 +7,25 @@
         .color {
             color: blue;
         }
+        .boton {
+            background-color: rgb(28, 222, 235);
+            color: black;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .boton:hover {
+            background-color: rgb(18, 60, 68);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
     }
 </style>
 
 <div class="texto">
     <h1>Hola Mundo</h1>
     <p class="color">Hola Mundo</p>
-    <button type="button" onclick="ejecutar()">Ejecutar</button>
+    <button type="button" onclick="ejecutar()" class="boton">Ejecutar</button>
 </div>
